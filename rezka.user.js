@@ -61,10 +61,9 @@
 
     function generate_download_link(file = new Blob(), name = "") {
         let ext = is_mac ? '.sh' : '.bat';
-        if (!document.querySelector('#'+rnd)){
-            var link = document.createElement('a');
-        }else{
-            var link = document.querySelector('#'+rnd);
+        let link = document.querySelector('#'+rnd);
+        if (link){
+            link = document.createElement('a');
         }
         link.setAttribute('href', URL.createObjectURL(file));
         link.setAttribute('download', name + ext);
