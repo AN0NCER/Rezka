@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rezka
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  download you film
 // @author       Anoncer
 // @match        https://rezka.ag/*
