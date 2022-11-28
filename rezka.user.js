@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         Rezka
+// @namespace    http://tampermonkey.net/
+// @version      0.2
+// @description  download you film
+// @author       Anoncer
+// @match        https://rezka.ag/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=rezka.ag
+// @grant        none
+// ==/UserScript==
+
 (function () {
     'use strict';
     let show_log = false;
