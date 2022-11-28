@@ -7,7 +7,7 @@
 Інструкції:
 - [Windows](https://www.wikihow.com/Install-FFmpeg-on-Windows)
 - [Mac OS](https://bbc.github.io/bbcat-orchestration-docs/installation-mac-manual/)
-- [Brew](https://brew.sh/) (Windows, Mac OS, Linux) виконавши код у терміналі:
+- **рекомендую** [Brew](https://brew.sh/) (Windows, Mac OS, Linux) виконавши код у терміналі:
 ```cmd
 brew install ffmpeg
 ``` 
